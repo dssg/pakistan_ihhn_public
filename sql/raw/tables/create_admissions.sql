@@ -1,0 +1,21 @@
+CREATE TABLE IF NOT EXISTS raw.admissions(
+    new_mr TEXT,
+    admission_no TEXT,
+    patient_type TEXT,
+    admission_source TEXT,
+    admission_date TIMESTAMP,
+    discharge_date TIMESTAMP,
+    stay_duration NUMERIC,
+    patient_age NUMERIC,
+    gender TEXT,
+    admission_status TEXT,
+    doctor_code TEXT,
+    death_reason_code TEXT,
+    death_reason TEXT,
+    admission_diagnosis_code TEXT,
+    admission_diagnosis TEXT,
+    principal_diagnosis_code TEXT,
+    principal_diagnosis TEXT,
+    associated_disease_code TEXT,
+    associated_disease TEXT
+);
